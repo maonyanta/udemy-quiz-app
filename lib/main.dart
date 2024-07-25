@@ -3,9 +3,15 @@ import 'package:udemy_quiz_app/start_screen.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
       home: Scaffold(
-        body: StartScreen(),
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Colors.blue, Colors.lightBlue],
+            ),
+            ),
+          child: const StartScreen(),
       ),
     ),
   );
