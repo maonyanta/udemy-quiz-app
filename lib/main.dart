@@ -6,12 +6,13 @@ void main() {
     MaterialApp(
       home: Scaffold(
         body: Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [Colors.blue, Colors.lightBlue],
             ),
-            ),
+          ),
           child: const StartScreen(),
+        ),
       ),
     ),
   );
