@@ -5,6 +5,8 @@ class StartScreen extends StatelessWidget {
 
   @override
   Widget build(context) {
-    return const Text('Hello, world!');
+    return const Center(
+      child: Text('Hello, world!'),
+    );
   }
 }
